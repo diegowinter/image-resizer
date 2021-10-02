@@ -1,0 +1,29 @@
+{
+  "name": "image-resizer",
+  "version": "0.1.0",
+  "description": "API to resize images",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegowinter/image-resizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegowinter/image-resizer/issues"
+  },
+  "homepage": "https://github.com/diegowinter/image-resizer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "is-base64": "^1.1.0",
+    "sharp": "^0.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
